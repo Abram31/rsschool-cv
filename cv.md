@@ -2,8 +2,10 @@
 ___
 # Artsiom Abramovich
 
-*Junior Frontend Developer*
-__________
+*Junior Frontend Developer* 
+
+__________ 
+
 Contact information:
 
 Phone: +375 44 762 39 93
@@ -22,12 +24,11 @@ About myself:
 
 The first education is lawyer. From 2008 to 2014 I worked in my specialty in various organizations. Since 2014, I have been working as a deputy director in a construction company. I was involved in organizing the work of builders, working with customers and organizing the supply of materials to construction sites.
 
- ### And now I want to learn Front-End Development in RSSchool! 
+ ## And now I  learn Front-End Development in RSSchool! 
 ___
 Code example:
 
 ```
-
 Object.assign(Array.prototype, {   
         square() { 
           return this.map(num => {
@@ -57,7 +58,6 @@ Object.assign(Array.prototype, {
         }              
         )},              
 })
-
 ```
 
 ___
@@ -73,4 +73,4 @@ Skills:
 ___
 
 Language:
-English level  A2
+English level:  A2

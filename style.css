@@ -17,7 +17,7 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: calc(10px + 20 * (100vw/1920));
-    line-height: 45px;
+    line-height: 200%;
     color: #1E2A39;
 }
 @media (min-width:1440px) {
@@ -62,7 +62,7 @@ header:after {
     display: flex;
     flex-wrap: wrap;
     /* align-content: center; */
-    gap:60px;
+    gap:0;
     width: 100%;
     cursor: pointer;
     box-sizing: content-box;
@@ -192,27 +192,27 @@ header:after {
     flex:1;
 }
 
-.name h2 {
+.name h1 {
     font-size:calc(30px + 66 * (100vw/1920));
     line-height: 102%;
 
 }
 
-.name h3 {
+.name h2 {
     font-size: calc(27px + 45 * (100vw/1920));
     line-height: 160%;
     color: #BB7A3B;
 
 }
 @media (min-width:1440px) {
-    .name h2 {
+    .name h1 {
         font-size: 96px;
     }
-    .name h3 {
+    .name h2 {
         font-size: 72px;
     }
 }
-.name h2 p{
+.name h1 p{
     color:rgba(187, 122, 59, 1);
 
 }
@@ -232,7 +232,7 @@ header:after {
     font-size: calc(15px + 25 * (100vw/1920));
     font-style: normal;
     font-weight: 400;
-    line-height: 63px;
+    line-height: 150%;
     letter-spacing: 0.03em;
     text-align: center;
 
@@ -303,6 +303,7 @@ header:after {
     width: 100%;
     padding: 30px 0;
 }
+
 .skills-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -313,6 +314,7 @@ header:after {
 .skills-wrapper-title {
     margin-left: 0;
     font-size:calc(18px + 30 * (100vw/1920));
+    line-height: 45px;
 }
 
 @media (min-width:1440px) {
@@ -323,13 +325,13 @@ header:after {
 
 
 
-.skills-wrapper-title p {
+.skills-wrapper-title ul li {
     
     padding: 20px 0;
 }
 
 @media (max-width:600px) {
-    .skills-wrapper-title p {
+    .skills-wrapper-title ul li {
     
     padding: 0 0;
 }    
@@ -387,7 +389,7 @@ header:after {
     content: '';
     position: relative;
     height: 24px;
-    width: 250px;
+    width: 340px;
     background-size: 100% 100%, 100% 100% ;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom left, bottom left;
@@ -439,10 +441,11 @@ header:after {
     flex-wrap: wrap;
     gap: 30px;
     margin: 30px;
-    
-    
-
-
+}
+@media (max-width:500px) {
+    .skills-contats {
+        flex-direction: column;
+    }
 }
 
 /* ----------------------------------CONTACTS--------------------------------------------- */
@@ -475,7 +478,7 @@ header:after {
     font-size: 48px;
 }
 }
-.contacts-links a {
+.contacts-links  li  {
     margin-left: 0;
     text-decoration:none;
     color: inherit;

@@ -2,6 +2,7 @@
     text-decoration: none;
     list-style-type: none;
     margin: auto;
+    scroll-behavior: smooth;
     
 }
 body {
@@ -25,7 +26,8 @@ h1 {
 }
  /* ----------------------------------------------HEADER--------------------------------------- */
 header {
-    position: fixed;
+    position: absolute;
+    /* position: fixed; */
     display: flex;
     flex-wrap: wrap;
     gap: 0px;
@@ -104,7 +106,7 @@ header {
 
 .hero {
     position: relative;
-    background:url(../img/main-background.png);
+    background:url(../img/main-background.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -290,35 +292,36 @@ header {
     width: 220px;
     height: 55px;
     
+
+}
+.portfolio_navigation_winter:hover button, 
+.portfolio_navigation_spring:hover button,
+.portfolio_navigation_summer:hover button,
+.portfolio_navigation_autumn:hover button {
+    background-color: rgba(189, 174, 130, 1);
+    color: #000;
+   
+
+}
+
+
+
+.portfolio_navigation_winter button, 
+.portfolio_navigation_spring button,
+.portfolio_navigation_summer button,
+.portfolio_navigation_autumn button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: rgba(189, 174, 130, 1);
+    width: 100%;
+    height: 100%;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 165%; 
     cursor: pointer;
-
-}
-.portfolio_navigation_winter:hover a , 
-.portfolio_navigation_spring:hover a ,
-.portfolio_navigation_summer:hover a,
-.portfolio_navigation_autumn:hover a {
-    background-color: rgba(189, 174, 130, 1);
-    color: #000;
-
-}
-
-
-
-.portfolio_navigation_winter a, 
-.portfolio_navigation_spring a,
-.portfolio_navigation_summer a,
-.portfolio_navigation_autumn a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgba(189, 174, 130, 1);
-    width: 100%;
-    height: 100%;
-    
 
 }
 
@@ -646,7 +649,7 @@ header {
     
 }
 
-.contact_me h3 {
+.contact_me h2 {
     font-family: Merriweather;
     font-size: 40px;
     font-style: normal;

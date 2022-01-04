@@ -10,18 +10,20 @@
 400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/main-background.jpg" type="image/x-icon">
     <title>Portfolio</title>
+    
 </head>
 <body>
     <header>
         <a class="logo" href=""></a>
         <nav>
             <ul class="navigation">
-                <li> <a href="">Skills</a> </li>
-                <li> <a href="">Portfolio</a> </li>
-                <li><a href="">Video</a> </li>
-                <li> <a href="">Price </a>  </li>
-                <li> <a href="">Contacts</a> </li>
+                <li> <a href="#skills">Skills</a> </li>
+                <li> <a href="#portfolio">Portfolio</a> </li>
+                <li><a href="#video">Video</a> </li>
+                <li> <a href="#price">Price </a>  </li>
+                <li> <a href="#contacts">Contacts</a> </li>
             </ul>
         </nav>
             
@@ -41,7 +43,7 @@
                 <button>Hire me</button> 
             </div>  
         </section>
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="title"> 
                 <h2 class="name">Skills</h2>
                 <div class="title_line"></div>
@@ -70,23 +72,23 @@
             </div>
 
         </section>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
              <div class="title"> 
                 <h2 class="name">Portfolio</h2>
                 <div class="title_line"></div>
             </div>
             <div class="portfolio_navigation">
                 <div class="portfolio_navigation_winter">
-                    <a href="">Winter</a>
+                    <button >Winter</button>
                 </div>
                 <div class="portfolio_navigation_spring">
-                    <a href="">Spring</a>
+                    <button >Spring</button>
                 </div>
                 <div class="portfolio_navigation_summer">
-                    <a href="">Summer</a>
+                    <button>Summer</button>
                 </div>
                 <div class="portfolio_navigation_autumn">
-                    <a href="">Autumn</a>
+                    <button>Autumn</button>
                 </div>
             </div>
             <div class="portfolio_photo">
@@ -112,7 +114,7 @@
 
         </section>
 
-        <section>
+        <section class="video" id="video">
             <div class="title"> 
                 <h2 class="name">Video</h2>
                 <div class="title_line"></div>
@@ -139,7 +141,7 @@
                 </div>
 
         </section>
-        <section class="price">
+        <section class="price" id="price">
              <div class="title"> 
                 <h2 class="name">Price</h2>
                 <div class="title_line"></div>
@@ -184,9 +186,9 @@
 
             </div> 
        </section>
-       <section class="contacts">
+       <section class="contacts" id="contacts">
            <div class="contact_me">
-               <h3>Contact me</h3>
+               <h2>Contact me</h2>
                <input type="email" name="E-mail" id="" placeholder = "E-mail">
                 <input type="tel" name="" id="" placeholder = "Phone">
                 <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>

@@ -534,17 +534,57 @@ header:after {
 }
 .portfolio-1 {
     
-    width: 500px;
-    height: 500px; 
-    margin: 0 30px;
-    background: url('img/portfolio/silverSeven.png') ;
-    background-size: 100% 100%;
-    /* background-size: cover; */
+    width: 30rem;
+    height: 30rem;
+    margin: 0 2rem;
+    /* background-size: 100% 100%; */
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     transition: 3s ease;
-    
-   
+      
 }
+
+.silver-seven {
+    background: url(img/portfolio/silverSeven.png);
+     background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.portfolio-portfolio {
+    background: url(img/portfolio/portfolio.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+.video-player {
+    background: url(img/portfolio/video-player.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+.movie-app {
+    background: url(img/portfolio/movie-app.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.memory-game {
+    background: url(img/portfolio/memory-game.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
 .portfolio-1 a {
     display: flex;
     flex-direction: column;

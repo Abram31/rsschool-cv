@@ -1,0 +1,215 @@
+/* ----------------------------SKILLS------------------------------ */
+
+
+.title-heading,
+.title-heading-about-myself,
+.title-heading-portfolio,
+.title-heading-codeexample,
+.title-heading-languages {
+    display: inline-block;
+    position: relative;
+    width: -webkit-fill-available;
+    font-size: calc(20px + 40 * (100vw/1920));
+    line-height: 180%;
+    border-bottom: 5px solid rgba(187, 122, 59, 0.3);
+    cursor: pointer;
+    
+}
+@media (min-width:1440px) {
+    .title-heading,
+    .title-heading-about-myself,
+    .title-heading-portfolio,
+    .title-heading-codeexample,
+    .title-heading-languages {
+   
+    font-size: 60px;
+    
+    
+}
+}
+
+.title-heading:after,
+.title-heading-about-myself:after,
+.title-heading-portfolio:after,
+.title-heading-codeexample:after,
+.title-heading-languages:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 250px;
+    height: 5px;
+    background: rgba(187, 122, 59, 1);
+    transition: 3s;
+
+
+}
+.title-heading:hover:after,
+.title-heading-about-myself:hover:after,
+.title-heading-portfolio:hover:after,
+.title-heading-codeexample:hover:after,
+.title-heading-languages:hover:after {
+    width: 100%;
+    display: block;
+    transition: 3s;
+
+}
+.skills {
+    display: flex;
+    margin-left: 0;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0;
+    flex:1;
+
+    /* transition: 1s;
+    transform: translate(120%, 0);
+    opacity: 0; */
+}
+.skills-wrapper-title {
+    margin-left: 0;
+    font-size:calc(18px + 30 * (100vw/1920));
+    line-height: 45px;
+}
+
+@media (min-width:1440px) {
+    .skills-wrapper-title {
+     font-size:48px;
+}
+}
+
+
+
+.skills-wrapper-title ul li {
+    
+    padding: 20px 0;
+}
+
+@media (max-width:600px) {
+    .skills-wrapper-title ul li {
+    
+    padding: 0 0;
+}    
+}
+ .skills-html {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* flex: 1; */
+ }
+
+/* .skills-html::after {
+    content: '';
+    background-image: url('img/points/html.svg');
+    position: relative;
+    height: 24px;
+    width: 243.63681030273438px;
+    /* flex: 1; */
+    /* display: inline-block;
+
+    
+   
+
+} */ 
+.points {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    gap: 60px 0;
+    margin-left: 0;
+}
+@media (max-width:500px) {
+    .points {
+        display: none;
+    }
+}
+@media (max-width:600px) {
+    .points {
+    
+    padding: 6px 0;
+    gap: 22px 0;
+    
+}  
+
+}
+.point-html,
+.point-css,
+.point-JS,
+.point-PS,
+.point-figma,
+.point-GIT {
+
+    display: inline-block;
+    content: '';
+    position: relative;
+    height: 24px;
+    width: 340px;
+    background-size: 100% 100%, 100% 100% ;
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, bottom left;
+    background-size: initial;
+
+}
+
+/* @media(max-width:480px) {
+    .point-html,
+    .point-css,
+    .point-JS,
+    .point-PS,
+    .point-figma,
+    .point-GIT {
+
+    height: 12px;
+    width: 120px;
+    
+
+}
+} */
+
+.point-html {
+    background-image: url('img/points/html.svg'), url('img/points/background.png') ;
+}
+.point-css {
+    background-image: url('img/points/css.svg'), url('img/points/background.png');
+
+}
+.point-JS {
+    background-image: url('img/points/JS.svg'), url('img/points/background.png');
+}
+.point-PS {
+    background-image: url('img/points/Phtoshop.svg'), url('img/points/background.png');
+}
+.point-figma {
+    background-image: url('img/points/figma.svg'), url('img/points/background.png');
+}
+.point-GIT {
+    background-image: url('img/points/git.svg'), url('img/points/background.png');
+}
+
+
+
+.container-skills-contats {
+    transition: 1s;
+    /* transform: translate(0, 80%); */
+    transform: rotate3d(2, 7, 41, 218deg) translate(-100%, -250px);
+    opacity: 0;
+}
+/* -----------------------------SKILLS CONTACTS-------------------------------- */
+
+.skills-contats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px;
+}
+@media (max-width:500px) {
+    .skills-contats {
+        flex-direction: column;
+    }
+}

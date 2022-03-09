@@ -1,0 +1,29 @@
+.container-about-myself {
+    transition: 1s;
+    transform: translate(-120%, 0);
+    opacity: 0;
+}
+
+.title-heading-about-myself,
+.title-heading-portfolio,
+.title-heading-codeexample,
+.title-heading-languages {
+    text-align: center;
+    margin: 30px;
+}
+
+.aboutmyself {
+    margin: 0 30px;
+    font-size: calc(15px + 25 * (100vw/1920));
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+@media (min-width:1440px) {
+    .aboutmyself {
+    font-size: 40px;
+}
+}

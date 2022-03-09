@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 1440px;
+    height: auto;
+    background-color: rgba(200, 204, 171, 0.7);
+}
+.img-github {
+     width: 200px;
+    // height: ;
+}
+.img-rsschool {
+    width: 250px;
+    // height: ;
+}
+.footer p {
+    font-size: calc(18px + 30 * (100vw/1920));
+}
+
+@media (min-width:1440px) {
+    .footer p {
+    font-size: 48px;
+}
+}
+
+
+
+.active {
+    transform: translate(0, 0px);
+    opacity: 1;
+}

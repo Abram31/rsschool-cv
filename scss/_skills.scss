@@ -143,7 +143,10 @@
 .point-JS,
 .point-PS,
 .point-figma,
-.point-GIT {
+.point-GIT,
+.point-nodejs,
+.point-react,
+.point-typescript {
 
     display: inline-block;
     content: '';
@@ -180,7 +183,7 @@
 
 }
 .point-JS {
-    background-image: url('img/points/JS.svg'), url('img/points/background.png');
+    background-image: url('img/points/css.svg'), url('img/points/background.png');
 }
 .point-PS {
     background-image: url('img/points/Phtoshop.svg'), url('img/points/background.png');
@@ -192,13 +195,26 @@
     background-image: url('img/points/git.svg'), url('img/points/background.png');
 }
 
+.point-nodejs {
+    background-image: url('img/points/react-TS-.nodejs.svg'), url('img/points/background.png');
+}
+
+.point-react {
+    background-image: url('img/points/react-TS-.nodejs.svg'), url('img/points/background.png');
+
+}
+
+.point-typescript {
+    background-image: url('img/points/react-TS-.nodejs.svg'), url('img/points/background.png');
+
+}
 
 
 .container-skills-contats {
     transition: 1s;
     /* transform: translate(0, 80%); */
-    transform: rotate3d(2, 7, 41, 218deg) translate(-100%, -250px);
-    opacity: 0;
+//     transform: rotate3d(2, 7, 41, 218deg) translate(-100%, -250px);
+//     opacity: 0;
 }
 /* -----------------------------SKILLS CONTACTS-------------------------------- */
 

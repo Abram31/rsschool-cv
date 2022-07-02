@@ -22,6 +22,13 @@
     text-align: center;
 
 }
+.aboutmyself ul li {
+    padding: 0;
+    margin-left: 60px;
+    list-style-type: disc;
+    text-align: left;
+}
+
 @media (min-width:1440px) {
     .aboutmyself {
     font-size: 40px;

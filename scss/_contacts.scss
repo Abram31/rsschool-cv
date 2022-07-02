@@ -1,0 +1,75 @@
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0;
+    flex:1;
+
+    /* transition: 1s;
+    transform: translate(-120%, 0);
+    opacity: 0; */
+
+}
+.contacts-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    padding: 50px 0;
+    gap:60px;
+    margin-left: 0;
+    font-size: calc(13px + 30 * (100vw/1920));
+}
+@media(max-width:600px) {
+    .contacts-links {
+        gap: 0;
+    }
+}
+@media (min-width:1440px) {
+    .contacts-links {
+    font-size: 48px;
+}
+}
+.contacts-links  li  {
+    margin-left: 0;
+    text-decoration:none;
+    color: inherit;
+}
+
+.icon-phone::before,
+.icon-mail::before,
+.icon-telegram::before,
+.icon-instagram::before,
+.git-hub::before
+
+ {
+    display: inline-block;
+    content: '';
+    position: relative;
+    height: 40px;
+    width: 40px;
+    margin-right: 30px;
+    
+    background-repeat: no-repeat;
+    background-position: bottom left;
+
+}
+
+.icon-phone::before {
+    background-image: url('img/icons/phone.svg');
+}
+.icon-mail::before{
+    background-image: url('img/icons/mail.svg');
+}
+.icon-telegram::before{
+    background-image: url('img/icons/telegram.svg');
+}
+.icon-instagram::before{
+    background-image: url('img/icons/instagram.svg');
+}
+.git-hub::before{
+    background-image: url('img/icons/git-hub.svg');
+}
+
+

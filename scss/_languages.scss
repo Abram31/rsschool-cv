@@ -1,0 +1,20 @@
+/* -------------------------------languages-------------------------------- */
+
+.container-language {
+    transition: 1s;
+    // transform: translate(120%,0);
+    // opacity: 0;
+}
+.languages {
+    margin: 0 30px 30px 30px;
+    font-size: calc(18px + 30 * (100vw/1920));
+}
+@media (min-width:1440px) {
+    .languages {
+    font-size: 48px;
+}
+}
+.languages p {
+    padding: 25px 0;
+}
+
